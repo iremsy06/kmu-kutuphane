@@ -32,16 +32,16 @@ FILES = {
 
 st.markdown("""
 <style>
-    /* 1. ANA ARKA PLAN (LACİVERT/GECE MAVİSİ) */
+
     .stApp {
 background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
         
-        /* Yazı Rengi (Hafif Krem) */
+
         color: #f0e6d2;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
-    /* LOGO */
+
     .kmu-logo-img {
         width: 110px; height: 110px; border-radius: 50%;
         border: 3px solid #d4af37; box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
@@ -49,7 +49,7 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
         display: block; margin: 0 auto 15px auto;
     }
 
-    /* GİRİŞ KUTUSU */
+
     .login-box {
         background: rgba(255, 255, 255, 0.05);
         backdrop-filter: blur(10px);
@@ -58,7 +58,7 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
-    /* INPUTLAR */
+
     .stTextInput>div>div>input, .stSelectbox>div>div>div {
         background-color: rgba(255, 255, 255, 0.07) !important;
         color: white !important;
@@ -66,11 +66,11 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
         border-radius: 8px;
     }
     
-    /* SEKME VE BUTONLAR */
+
     .stTabs [data-baseweb="tab-list"] { background-color: rgba(255,255,255,0.05); border-radius: 20px; padding: 5px; }
     .stTabs [aria-selected="true"] { background-color: #F2C94C !important; color: black !important; font-weight: bold; }
 
-    /* KİTAP KARTI */
+
     .book-container {
         background: rgba(255, 255, 255, 0.05);
         border-radius: 10px; padding: 15px; text-align: center;
@@ -82,13 +82,13 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
         background: rgba(255, 255, 255, 0.08); box-shadow: 0 10px 20px rgba(0,0,0,0.5);
     }
 
-    /* KAPAK */
+
     .grid-cover-img {
         width: 100%; height: 220px; object-fit: contain;
         border-radius: 5px; margin-bottom: 10px; filter: drop-shadow(0 5px 5px rgba(0,0,0,0.5));
     }
 
-    /* YAZILAR */
+
     .book-title {
         font-size: 13px; font-weight: bold; color: #fff;
         display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -96,14 +96,14 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
     }
     .book-author { font-size: 11px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 5px; }
     
-    /* STOK */
+
     .stock-badge {
         font-size: 11px; color: #4ade80; background: rgba(74, 222, 128, 0.1);
         padding: 2px 8px; border-radius: 10px; display: inline-block; margin-bottom: 10px;
         border: 1px solid rgba(74, 222, 128, 0.3);
     }
 
-    /* BUTONLAR (ORİJİNAL ALTIN SARISI) */
+
     .stButton>button, [data-testid="stLinkButton"] > a {
         background: linear-gradient(90deg, #d4af37 0%, #f2c94c 100%) !important;
         color: #000 !important;
@@ -113,25 +113,25 @@ background: linear-gradient(135deg, #1a120b 0%, #3c2a21 50%, #2b1d16 100%);
     }
     .stButton>button:hover, [data-testid="stLinkButton"] > a:hover { opacity: 0.9; }
     
-    /* METRİK KARTLARI */
+
     .metric-card {
         background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
         padding: 20px; border-radius: 15px; text-align: center;
     }
     .metric-title { font-size: 14px; color: #aaa; text-transform: uppercase; }
     .metric-value { font-size: 36px; font-weight: bold; color: #d4af37; margin: 10px 0; }
-/* SOL MENÜ (SIDEBAR) TASARIMI */
+
     section[data-testid="stSidebar"] {
         background-color: #2b1d16 !important; /* Koyu Kahve Zemin */
-        background-image: linear-gradient(180deg, #3e2b22 0%, #1a0f0a 100%) !important; /* Hafif Gradyan */
-        border-right: 2px solid #d4af37 !important; /* Sağ tarafa altın çizgi */
+        background-image: linear-gradient(180deg, #3e2b22 0%, #1a0f0a 100%) !important; 
+        border-right: 2px solid #d4af37 !important; 
     }
     
-    /* Sol Menüdeki Yazı Renkleri */
+
     section[data-testid="stSidebar"] * {
-        color: #e6f1ff !important; /* Yazılar açık renk kalsın */
+        color: #e6f1ff !important; 
     }
-    /* FOOTER */
+
     .footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: rgba(0,0,0,0.8); color: #888; text-align: center; padding: 10px; font-size: 11px; z-index: 999;}
 </style>
 """, unsafe_allow_html=True)
