@@ -1,7 +1,7 @@
 Ogrenci No,Kitap Adi,Alis Tarihi,Son Teslim Tarihi,Islem Durumu
 2,Kürk Mantolu Madonna,2025-12-23,2026-01-07,Aktif
 3,Aşk ve Gurur (Beyaz Kapak),2025-12-23,2026-01-07,Teslim Edildi
-1,Nutuk,2025-12-23,2026-01-07,Aktif
+1,Nutuk,2025-12-23,2026-01-07,Teslim Edildi
 4,İçimizdeki Şeytan,2025-12-23,2026-01-07,Aktif
 5,Nutuk (Ciltli),2025-12-23,2026-01-07,Aktif
 5,Ankara Bütün Eserleri 10,2025-12-23,2026-01-07,Aktif
@@ -29,3 +29,6 @@ Ogrenci No,Kitap Adi,Alis Tarihi,Son Teslim Tarihi,Islem Durumu
 9,Masumiyet Müzesi,2025-12-24,2026-01-08,Aktif
 12,Fareler ve İnsanlar,2025-12-24,2026-01-08,Aktif
 12,Amok Koşucusu,2025-12-24,2026-01-08,Aktif
+1,Bir Bilim Adamının Romanı / Bütün Eserleri 5,2025-12-25,2026-01-09,Aktif
+1,Var Mısın? & Güçlü Bir Yaşam İçin Öneriler,2025-12-25,2026-01-09,Aktif
+2,Kayıp Tanrılar Ülkesi,2025-12-25,2026-01-09,Teslim Edildi
